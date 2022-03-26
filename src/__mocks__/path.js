@@ -1,5 +1,5 @@
 //ensures consistency of test results on windows and linux/mac
-const originalPath = require.requireActual('path');
+const originalPath = jest.requireActual('path');
 const path = jest.genMockFromModule('path');
 const mockFolderSeperator = '\\';
 

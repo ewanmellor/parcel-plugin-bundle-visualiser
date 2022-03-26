@@ -1,4 +1,8 @@
-# parcel-plugin-bundle-visualiser
+# @ewanmellor/parcel-plugin-bundle-visualiser
+
+This is Ewan Mellor's fork of parcel-plugin-bundle-visualiser
+(github.com/gregtillbrook/parcel-plugin-bundle-visualiser).
+The only change is to bump the versions of the dependencies.
 
 A plugin for the [Parcel bundler](https://parceljs.org/) to visualise bundle contents.
 
@@ -15,7 +19,7 @@ This plugin aims to make it easier to visualise a bundles contents and aid in tr
 # Install
 
 ```bash
-npm install --save-dev parcel-plugin-bundle-visualiser
+yarn add -D @ewanmellor/parcel-plugin-bundle-visualiser
 ```
 
 # Usage
